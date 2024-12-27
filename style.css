@@ -121,3 +121,18 @@ body {
   bottom: 10px; /* Position at the bottom */
   width: 100%;
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .Picture-img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .marquee {
+    font-size: 32px; /* Increase font size for marquee */
+  }
+
+  .Picture-note, .Picture-note-video {
+    font-size: 2rem; /* Increase font size for notes */
+  }
+}
