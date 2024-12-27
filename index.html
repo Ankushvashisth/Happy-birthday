@@ -11,7 +11,10 @@
 <div class="Container">
   <!-- last card -->
   <div class="Picture-video" id="video">
-    <iframe class="Picture-img-video" width="300" height="480"  src="1.mp4" frameborder="0" allowfullscreen></iframe>
+    <video class="Picture-img-video" width="270" height="480" controls muted>
+        <source src="1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <div class="Picture-note-video"><span>Happy Birthday 🎂<a class="Network-video" href="https://codepen.io/DeyJordan" target="_top"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="CodePen" /></a><a class="Network" href="https://twitter.com/DeyJordan" target="_top"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter" /></a></span></div>
   </div>
   <!-- other cards -->
@@ -51,10 +54,18 @@
     <div class="Picture-note"><span>Mountain-Peak 🗻</span></div>
   </div>
   <div class="Picture">
-    <img class="Picture-img" src="1.jpg" alt="" />
+    <img class="Picture-img" src="1.Jpg" alt="" />
     <div class="Picture-note"><span>Waterfall 💦</span></div>
   </div>
 </div>
+<!-- Add this inside the <body> tag -->
+ 
+  <audio id="backgroundMusic" controls loop>
+    <source src="your-song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio> 
+
+<marquee behavior="scroll" direction="left" class="marquee">Happy Birthday Bandna!</marquee>
 <!-- partial -->
   <script  src="./script.js"></script>
 

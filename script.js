@@ -53,3 +53,11 @@ pictures.forEach(picture => {
   picture.addEventListener("mousedown", startFunction);
   picture.addEventListener("touchstart", startFunction);
 });
+// Add this to your script.js
+function showBirthdayPopup() {
+  const popup = document.getElementById('birthdayPopup');
+  popup.style.display = 'block'; // Show the pop-up
+}
+
+// Call the function to show the pop-up (you can call this on a specific event)
+showBirthdayPopup();

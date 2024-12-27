@@ -93,3 +93,31 @@ body {
   font-family: 'Caveat', serif;
   overflow: hidden;
 }
+/* Add this to your style.css */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none; /* Initially hidden */
+}
+
+.balloon {
+  width: 50px; /* Adjust size as needed */
+  margin: 5px;
+}
+
+.marquee {
+  font-size: 24px;
+  color: #ff69b4; /* Pink color */
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px; /* Position at the bottom */
+  width: 100%;
+}
