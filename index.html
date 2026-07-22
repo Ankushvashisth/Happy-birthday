@@ -4,69 +4,84 @@
   <meta charset="UTF-8">
   <title>College Wishlist - Instant photo film galerie</title>
   <link rel="stylesheet" href="./style.css">
-
+  
+  <style>
+    /* Styling for your custom thoughts paragraph */
+    .thoughts-container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px 40px;
+      background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white background */
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    
+    .thoughts-container p {
+      font-size: 1.3rem;
+      color: #333;
+      line-height: 1.6;
+      font-family: sans-serif;
+    }
+  </style>
 </head>
 <body>
+  
+  <!-- Top Marquee -->
   <marquee behavior="scroll" direction="left" class="marquee">Happy Birthday Baccha 💕</marquee>
-<!-- partial:index.partial.html -->
-<div class="Container">
-  <!-- last card -->
- <!-- <div class="Picture-video" id="video">
-    <video class="Picture-img-video" width="270" height="480" controls autoplay >
-        <source src="1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>-->
-    <div class="Picture-note-video"><span>Happy Birthday 🎂<a class="Network-video" href="https://codepen.io/DeyJordan" target="_top"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="CodePen" /></a><a class="Network" href="https://twitter.com/DeyJordan" target="_top"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter" /></a></span></div>
-  </div>
-  <!-- other cards -->
-  
-  
-  
 
+  <!-- Section for your custom thoughts/paragraph -->
+  <div class="thoughts-container">
+    <p>
+      Write your heartfelt thoughts and beautiful memories right here. 
+      You can type as much as you want to make this birthday wish extra special!
+    </p>
+  </div>
 
+  <!-- partial:index.partial.html -->
+  <div class="Container">
+    <!-- other cards -->
+    <div class="Picture">
+      <img class="Picture-img" src="8.jpeg" alt="" />
+      <div class="Picture-note"><span>❤️ Love</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="4.jpeg" alt="" />
+      <div class="Picture-note"><span>🥰 Adore</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="6.jpeg" alt="" />
+      <div class="Picture-note"><span>💞 Treasure</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="5.jpeg" alt="" />
+      <div class="Picture-note"><span>🤗 Hug </span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="7.jpeg" alt="" />
+      <div class="Picture-note"><span>😘 Kiss</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="3.jpeg" alt="" />
+      <div class="Picture-note"><span>🌹 Romance</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="2.jpeg" alt="" />
+      <div class="Picture-note"><span>💓 Devotion</span></div>
+    </div>
+    <div class="Picture">
+      <img class="Picture-img" src="1.jpeg" alt="" />
+      <div class="Picture-note"><span>💝 Affection</span></div>
+    </div>
+  </div>
 
+  <!-- Mixed Marquee at the bottom -->
+  <marquee behavior="scroll" direction="left" class="marquee" style="margin-top: 40px;">
+    Happy Birthday Baccha 💕 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I Love you Forever 💍💕 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Happy Birthday Baccha 💕 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I Love you Forever 💍💕
+  </marquee>
 
-  <div class="Picture">
-    <img class="Picture-img" src="8.jpeg" alt="" />
-    <div class="Picture-note"><span>❤️ Love</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="4.jpeg" alt="" />
-    <div class="Picture-note"><span>🥰 Adore</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="6.jpeg" alt="" />
-    <div class="Picture-note"><span>💞 Treasure</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="5.jpeg" alt="" />
-    <div class="Picture-note"><span>🤗 Hug </span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="7.jpeg" alt="" />
-    <div class="Picture-note"><span>😘 Kiss</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="3.jpeg" alt="" />
-    <div class="Picture-note"><span>🌹 Romance</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="2.jpeg" alt="" />
-    <div class="Picture-note"><span>💓 Devotion</span></div>
-  </div>
-  <div class="Picture">
-    <img class="Picture-img" src="1.jpeg" alt="" />
-    <div class="Picture-note"><span>💝 Affection</span></div>
-  </div>
-</div>
-<!-- Add this inside the <body> tag -->
- 
- 
-
-<div><marquee behavior="scroll" direction="left" class="marquee">Happy Birthday Baccha 💕</marquee></div>
-  <marquee behavior="scroll" direction="left" class="marquee"> I Love you Forever 💍💕</marquee>
-<!-- partial -->
-  <script  src="./script.js"></script>
+  <!-- partial -->
+  <script src="./script.js"></script>
 
 </body>
 </html>
